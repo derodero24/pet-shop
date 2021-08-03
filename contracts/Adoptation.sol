@@ -1,7 +1,7 @@
 pragma solidity ^0.5.0;
 
 contract Adoption {
-    // petId -> owner address
+    // petId(index) -> owner address
     address[16] public adopters;
 
     // Adopting a pet
